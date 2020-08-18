@@ -16,7 +16,7 @@ let Calculator={
   add:function(a,b){
     return a+b;
   },
-  substract:function(a,b){
+  subtract:function(a,b){
     return a-b;
   },
   multiply:function(a,b){
