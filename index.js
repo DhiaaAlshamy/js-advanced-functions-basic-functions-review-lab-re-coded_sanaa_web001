@@ -24,7 +24,7 @@ let Calculator={
   },
   
 }
-function actionApplyer (arg1=0,arr=[]){
+function actionApplyer (arg1=0,arr){
   let ret=arg1
 for(let i=0; i<=arr.length;i++) {
 ret= arr[i](arg1)
