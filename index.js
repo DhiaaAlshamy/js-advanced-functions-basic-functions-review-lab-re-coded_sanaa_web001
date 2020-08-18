@@ -30,7 +30,7 @@ let Calculator={
 function actionApplyer (arg1,arr){
   let ret=arg1
 for(let i=0; i<arr.length;i++) {
-ret= arr[i](arg1)
+ret= arr[i](ret)
  
 }
   return ret;
